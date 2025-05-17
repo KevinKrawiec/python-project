@@ -1,1 +1,12 @@
- 
+# Ignoruj pliki środowiska wirtualnego
+venv/
+__pycache__/
+*.pyc
+
+# Ignoruj pliki edytorów
+.vscode/
+.idea/
+
+# Ignoruj pliki systemowe
+.DS_Store
+Thumbs.db 
