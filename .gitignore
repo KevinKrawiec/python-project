@@ -1,12 +1,23 @@
-# Ignoruj pliki środowiska wirtualnego
+# Środowisko wirtualne
 venv/
+.env/
+
+# Pliki kompilowane
 __pycache__/
 *.pyc
+*.pyo
 
-# Ignoruj pliki edytorów
+# Edytory i IDE
 .vscode/
 .idea/
 
-# Ignoruj pliki systemowe
+# Systemowe
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Pliki logów
+*.log
+
+# Pliki tymczasowe
+*.tmp
+*.bak
